@@ -1,0 +1,28 @@
+# requirements.txt
+
+# For PDF processing and text extraction
+PyMuPDF
+
+# Core RAG and LLM framework
+langchain
+langchain-community
+langchain-core
+
+# For creating vector embeddings (using a Hugging Face model)
+sentence-transformers
+ InstructorEmbedding
+
+# Vector Database (local, file-based)
+faiss-cpu
+
+
+
+# To use OpenAI's API (alternative to a local LLM)
+# gemini
+google-generativeai
+
+# For building a simple web interface to demo your project
+streamlit
+
+
+rank-bm25
