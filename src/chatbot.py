@@ -14,7 +14,7 @@ import numpy as np
 from rank_bm25 import BM25Okapi
 import faiss
 
-os.environ['GEMINI_API_KEY'] = "AIzaSyBER6P2JhStWk5rrcVAiSm_oIrjNM5Wuw0" 
+os.environ['GEMINI_API_KEY'] = os.environ.get("GEMINI_API_KEY")
 
 class HarryPotterChatbot:
     """
